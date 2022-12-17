@@ -43,7 +43,9 @@
     "url": "https://github.com/tmlmt/fantome"
   },
   "bugs": "https://github.com/tmlmt/fantome/issues",
-  "contributors": "https://github.com/TryGhost/Casper/graphs/contributors",
+  "contributors": [
+    "https://github.com/TryGhost/Casper/graphs/contributors"
+  ],
   "devDependencies": {
     "@tryghost/release-utils": "0.8.1",
     "autoprefixer": "10.4.7",
