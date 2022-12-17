@@ -4,7 +4,7 @@ Fork of the default theme for [Ghost](http://github.com/tryghost/ghost/). _Fanto
 
 &nbsp;
 
-![screenshot-desktop](https://user-images.githubusercontent.com/1418797/183329195-8e8f2ee5-a473-4694-a813-a2575491209e.png)
+![screenshot](https://raw.githubusercontent.com/tmlmt/fantome/main/assets/screenshot.webp)
 
 &nbsp;
 
@@ -16,6 +16,6 @@ Fork of the default theme for [Ghost](http://github.com/tryghost/ghost/). _Fanto
 
 # Copyright & License
 
-Copyright (c) 2013-2022 Ghost Foundation
-Copyright (c) 2022 Thomas Lamant
+Copyright (c) 2013-2022 Ghost Foundation  
+Copyright (c) 2022 Thomas Lamant  
 Released under the [MIT license](LICENSE).
