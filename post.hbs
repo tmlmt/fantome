@@ -59,6 +59,8 @@ into the {body} tag of the default.hbs template --}}
         </section>
         </div>
 
+
+        {{#has visibility="public"}}
         {{#match @custom.post_image_style "!=" "Hidden"}}
         {{#if feature_image}}
             <figure class="article-image">
@@ -79,6 +81,32 @@ into the {body} tag of the default.hbs template --}}
             </figure>
         {{/if}}
         {{/match}}
+        {{/has}}
+
+        {{^has visibility="public"}}
+        {{#if access}}
+        {{#match @custom.post_image_style "!=" "Hidden"}}
+        {{#if feature_image}}
+            <figure class="article-image">
+                {{!-- This is a responsive image, it loads different sizes depending on device
+                https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 --}}
+                <img
+                    srcset="{{img_url feature_image size="s"}} 300w,
+                            {{img_url feature_image size="m"}} 600w,
+                            {{img_url feature_image size="l"}} 1000w,
+                            {{img_url feature_image size="xl"}} 2000w"
+                    sizes="(min-width: 1400px) 1400px, 92vw"
+                    src="{{img_url feature_image size="xl"}}"
+                    alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}"
+                />
+                {{#if feature_image_caption}}
+                    <figcaption>{{feature_image_caption}}</figcaption>
+                {{/if}}
+            </figure>
+        {{/if}}
+        {{/match}}
+        {{/if}}
+        {{/has}}
 
     </header>
 
