@@ -111,7 +111,14 @@ into the {body} tag of the default.hbs template --}}
     </header>
 
     <section class="gh-content gh-canvas">
-        <aside class="gh-sidebar"><div class="gh-toc"></div></aside> {{! The TOC will be inserted here }}
+        {{#has visibility="public"}}
+            <aside class="gh-sidebar"><div class="gh-toc"></div></aside> {{! The TOC will be inserted here }}
+        {{/has}}   
+        {{^has visibility="public"}}
+        {{#if access}}             
+            <aside class="gh-sidebar"><div class="gh-toc"></div></aside> {{! The TOC will be inserted here }}
+        {{/if}}
+        {{/has}}       
         {{content}}
     </section>
 
