@@ -13,6 +13,7 @@ Fork of the default theme for [Ghost](http://github.com/tryghost/ghost/). _Fanto
 - Instagram icon and link in the Header, available as a custom setting
 - Table of Contents powered by [tocbot](https://tscanlin.github.io/tocbot/)
 - Hidden Feature Image in Post page according to Access Tier of Member
+- Locales: minimal setup, with translation for japanese (can be expanded to any language by adding a `/locales/<...>.json` file
 
 # Copyright & License
 
