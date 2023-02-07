@@ -90,6 +90,9 @@
                             {{#if @custom.instagram }}
                                 <a class="gh-social-link gh-social-instagram" href="{{ @custom.instagram }}" title="Instagram" target="_blank" rel="me noopener">{{> "icons/instagram"}}</a>
                             {{/if}}
+                            {{#if @custom.github }}
+                                <a class="gh-social-link gh-social-github" href="{{ @custom.github }}" title="Github" target="_blank" rel="me noopener">{{> "icons/github"}}</a>
+                            {{/if}}
                         </div>
                     {{/match}}
                 {{/unless}}
@@ -109,6 +112,9 @@
                             {{#if @custom.instagram }}
                                 <a class="gh-social-link gh-social-instagram" href="{{ @custom.instagram }}" title="Instagram" target="_blank" rel="me noopener">{{> "icons/instagram"}}</a>
                             {{/if}}
+                            {{#if @custom.github }}
+                                <a class="gh-social-link gh-social-github" href="{{ @custom.github }}" title="Github" target="_blank" rel="me noopener">{{> "icons/github"}}</a>
+                            {{/if}}
                         </div>
                     {{/match}}
                 {{else}}
@@ -123,7 +129,10 @@
                             {{/if}}
                             {{#if @custom.instagram }}
                                 <a class="gh-social-link gh-social-instagram" href="{{ @custom.instagram }}" title="Instagram" target="_blank" rel="me noopener">{{> "icons/instagram"}}</a>
-                             {{/if}}
+                            {{/if}}
+                            {{#if @custom.github }}
+                                <a class="gh-social-link gh-social-github" href="{{ @custom.github }}" title="Github" target="_blank" rel="me noopener">{{> "icons/github"}}</a>
+                            {{/if}}
                         </div>
                         <div class="gh-head-members">
                         {{#unless @member}}
