@@ -1034,6 +1034,11 @@ production stylesheet in assets/built/screen.css
     margin-top: 6px;
 }
 
+:is(.tag-template, .author-template) .post-card-large .post-card-excerpt {
+    display: block;
+    overflow-y: auto;
+}
+
 .post-card-meta {
     display: flex;
     align-items: center;
@@ -1222,20 +1227,19 @@ html.no-infinite-scroll .pagination {
 /* ---------------------------------------------------------- */
 
 .article {
-    padding: max(8vmin, 40px) 0 max(8vmin, 64px);
     word-break: break-word;
 }
 
-.page-template .article {
-    padding-top: max(12vmin, 64px);
+.post-template .article {
+    padding: max(8vmin, 40px) 0 max(8vmin, 64px);
 }
 
-.article-header {
-    padding: 0 0 max(6.4vmin, 40px) 0;
+.post-template .article-header {
+    padding: 0 0 max(6.4vmin, 40px);
 }
 
 .page-template .article-header {
-    padding-bottom: max(3.2vmin, 28px);
+    padding: max(12vmin, 64px) 0 max(3.2vmin, 28px);
 }
 
 .article-tag {
@@ -1351,6 +1355,11 @@ headings, text, images and lists. We deal with cards lower down. */
     margin-bottom: 0;
 }
 
+/* Remove space between full-width cards */
+.gh-content > .kg-width-full + .kg-width-full:not(.kg-width-full.kg-card-hascaption + .kg-width-full) {
+    margin-top: 0;
+}
+
 /* [id] represents all headings h1-h6, reset all margins */
 .gh-content > [id] {
     margin: 0;
@@ -1399,6 +1408,14 @@ is the very first element in the post content */
     font-weight: 400;
     font-size: 2rem;
     line-height: 1.6em;
+}
+
+.page-template .gh-content:only-child > *:first-child:not(.kg-width-full) {
+    margin-top: max(12vmin, 64px);
+}
+
+.page-template .gh-content > *:last-child:not(.kg-width-full) {
+    margin-bottom: max(12vmin, 64px);
 }
 
 .gh-content .kg-callout-card .kg-callout-text,
@@ -1488,6 +1505,14 @@ is the very first element in the post content */
     box-shadow: 0 2px 6px -2px rgba(0,0,0,.1), 0 0 1px rgba(0,0,0,.4);
 }
 
+.gh-content ol ol li {
+    list-style-type: lower-alpha;
+}
+
+.gh-content ol ol ol li {
+    list-style-type: lower-roman;
+}
+
 @media (max-width: 650px) {
     .gh-content > blockquote:not([class]),
     .gh-content > ol,
@@ -1525,11 +1550,9 @@ make sure they look good, and are given a bit of extra spacing. */
 except for when immediately preceeded by a heading */
 .gh-content :not(.kg-card):not([id]) + .kg-card {
     margin-top: 6vmin;
-    margin-bottom: 0;
 }
 .gh-content .kg-card + :not(.kg-card) {
     margin-top: 6vmin;
-    margin-bottom: 0;
 }
 
 /* This keeps small embeds centered */
@@ -2031,6 +2054,10 @@ iframe.instagram-media + script + :not([id]) {
     padding-bottom: 140px;
     color: #fff;
     background: color-mod(var(--color-darkgrey) l(-5%));
+}
+
+.page-template .site-footer {
+    margin-top: 0;
 }
 
 .site-footer .inner {

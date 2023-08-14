@@ -18,6 +18,6 @@ Fork of the default theme for [Ghost](http://github.com/tryghost/ghost/). _Fanto
 
 # Copyright & License
 
-Copyright (c) 2013-2022 Ghost Foundation  
+Copyright (c) 2013-2023 Ghost Foundation  
 Copyright (c) 2022-2023 Thomas Lamant  
 Released under the [MIT license](LICENSE).
