@@ -18,12 +18,7 @@
 
 ### 🩹 Fixes
 
-- **toc): scrolls to section even with accents \* chore(deps:** Bump tocbot to 4.21.0 ([9eab69c](https://github.com/tmlmt/fantome/commit/9eab69c))
-
-### 🏡 Chore
-
-- Bump upstream Casper to v5.4.10 ([5276f47](https://github.com/tmlmt/fantome/commit/5276f47))
-- **release:** V1.2.1 ([acd3c1a](https://github.com/tmlmt/fantome/commit/acd3c1a))
+- **toc**: scrolls to section even with accents (by bumping tocbot to 4.21.0) ([9eab69c](https://github.com/tmlmt/fantome/commit/9eab69c))
 
 ### ❤️ Contributors
 
@@ -35,7 +30,7 @@
 
 ### 🏡 Chore
 
-- Bump upstream Casper to v5.4.10 ([5276f47](https://github.com/tmlmt/fantome/commit/5276f47))
+- **upstream**: Rebase with Casper v5.4.10 ([5276f47](https://github.com/tmlmt/fantome/commit/5276f47))
 
 ### ❤️ Contributors
 
