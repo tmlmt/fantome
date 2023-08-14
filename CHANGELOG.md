@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.3.1
+
+[compare changes](https://github.com/tmlmt/fantome/compare/v1.3.0...v1.3.1)
+
+### 🏡 Chore
+
+- **upstream:** Merge TryGhost/Casper v5.6.0 ([9c3219d](https://github.com/tmlmt/fantome/commit/9c3219d))
+- **changelog:** Fix text up to v1.3.0 ([20431a0](https://github.com/tmlmt/fantome/commit/20431a0))
+
+### ❤️  Contributors
+
+- Thomas Lamant ([@tmlmt](http://github.com/tmlmt))
+
 ## v1.3.0
 
 [compare changes](https://github.com/tmlmt/fantome/compare/v1.2.2...v1.3.0)
