@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.4.1
+
+[compare changes](https://github.com/tmlmt/fantome/compare/v1.3.0...v1.4.1)
+
+### 🏡 Chore
+
+- **upstream:** Merge TryGhost/Casper v5.7.0 ([efc615c](https://github.com/tmlmt/fantome/commit/efc615c))
+
+### ❤️ Contributors
+
+- Thomas Lamant ([@tmlmt](http://github.com/tmlmt))
+
 ## v1.4.0
 
 This version incorporates changes introduced by Casper v5.5.2-v5.6.0. Besides css adjustments and minor fixes, this wave introduces a few new Casper features:
