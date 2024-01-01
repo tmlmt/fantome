@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.4.2
+
+[compare changes](https://github.com/tmlmt/fantome/compare/v1.4.1...v1.4.2)
+
+### 🩹 Fixes
+
+- **toc:** Padding-left of nested headings ([eaed03d](https://github.com/tmlmt/fantome/commit/eaed03d))
+
+### 🏡 Chore
+
+- **upstream:** Merge TryGhost/Casper up to 4c6d33f ([6f07db7](https://github.com/tmlmt/fantome/commit/6f07db7))
+- Bump tocbot to v4.25.0 ([935e65a](https://github.com/tmlmt/fantome/commit/935e65a))
+
+### ❤️ Contributors
+
+- Thomas Lamant ([@tmlmt](http://github.com/tmlmt))
+
 ## v1.4.1
 
 [compare changes](https://github.com/tmlmt/fantome/compare/v1.3.0...v1.4.1)
