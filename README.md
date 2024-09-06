@@ -1,6 +1,8 @@
 # Fantome
 
-Fork of the default theme for [Ghost](http://github.com/tryghost/ghost/). _Fantome_ means _Ghost_ in French :)
+Fork of the _legacy*_ default theme for [Ghost](http://github.com/tryghost/ghost/). _Fantome_ means _Ghost_ in French :)
+
+\* [Source](https://github.com/TryGhost/Source) is the new default theme for Ghost: it has more built-in customization options explained in this [official blog post](https://ghost.org/tutorials/build-with-ghost-meet-our-new-official-theme/#meet-source-ghosts-new-default-theme). However, Casper still lives on, in 2.8k forks (as of Sep 2024) including this one. 
 
 &nbsp;
 
