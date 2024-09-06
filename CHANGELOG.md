@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.4.3
+
+[compare changes](https://github.com/tmlmt/fantome/compare/v1.4.2...v1.4.3)
+
+### 🏡 Chore
+
+- **upstream:** Merge TryGhost/Ghost up to 36e886a ([291f28b](https://github.com/tmlmt/fantome/commit/291f28b))
+- Bump tocbot to v4.29.0 ([abc5bfa](https://github.com/tmlmt/fantome/commit/abc5bfa))
+
+### ❤️ Contributors
+
+- Thomas Lamant ([@tmlmt](http://github.com/tmlmt))
+
 ## v1.4.2
 
 [compare changes](https://github.com/tmlmt/fantome/compare/v1.4.1...v1.4.2)

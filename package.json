@@ -2,7 +2,7 @@
   "name": "fantome",
   "description": "Fork of Casper, the default Ghost theme",
   "demo": "https://blog.tmlmt.com",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "engines": {
     "ghost": ">=5.0.0"
   },
@@ -183,5 +183,6 @@
     "extends": [
       "@tryghost:theme"
     ]
-  }
+  },
+  "dependencies": {}
 }
