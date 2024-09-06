@@ -1,5 +1,24 @@
 # Changelog
 
+## v1.5.0
+
+[compare changes](https://github.com/tmlmt/fantome/compare/v1.4.3...v1.5.0)
+
+### 🚀 Enhancements
+
+- **default:** Add link to theme repo ([253ddcb](https://github.com/tmlmt/fantome/commit/253ddcb))
+
+### 🏡 Chore
+
+- **README:** Add instructions on how to use the theme ([b3e27a2](https://github.com/tmlmt/fantome/commit/b3e27a2))
+- **README:** Update copyright date ([ecc88f9](https://github.com/tmlmt/fantome/commit/ecc88f9))
+- **README:** Highlight features ([0401777](https://github.com/tmlmt/fantome/commit/0401777))
+- **README:** Refer to Casper as a legacy theme and mention Source ([f387826](https://github.com/tmlmt/fantome/commit/f387826))
+
+### ❤️ Contributors
+
+- Thomas Lamant ([@tmlmt](http://github.com/tmlmt))
+
 ## v1.4.3
 
 [compare changes](https://github.com/tmlmt/fantome/compare/v1.4.2...v1.4.3)
