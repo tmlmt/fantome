@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.5.1
+
+[compare changes](https://github.com/tmlmt/fantome/compare/v1.5.0...v1.5.1)
+
+### 🏡 Chore
+
+- **upstream:** Merge TryGhost/Casper v5.9.0 ([79b9f8e](https://github.com/tmlmt/fantome/commit/79b9f8e))
+- Bump Tocbot to v4.36.2 ([c81eb94](https://github.com/tmlmt/fantome/commit/c81eb94))
+
+### ❤️ Contributors
+
+- Thomas Lamant ([@tmlmt](https://github.com/tmlmt))
+
 ## v1.5.0
 
 [compare changes](https://github.com/tmlmt/fantome/compare/v1.4.3...v1.5.0)
