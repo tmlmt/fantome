@@ -25,6 +25,6 @@ Fork of the _legacy*_ default theme for [Ghost](http://github.com/tryghost/ghost
 
 ## Copyright & License
 
-Copyright (c) 2013-2023 Ghost Foundation  
-Copyright (c) 2022-2024 Thomas Lamant  
+Copyright (c) 2013-2025 Ghost Foundation  
+Copyright (c) 2022-2025 Thomas Lamant  
 Released under the [MIT license](LICENSE).
